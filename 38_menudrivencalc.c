@@ -173,7 +173,7 @@ int main() {
             for (int i = 1; i <= n11; i++) {
                 n12 *= n10;
             }
-            printf("%d raised to the power of %d is %d\n", n10, n11, n12); // 👈 Added missing output statement
+            printf("%d raised to the power of %d is %d\n", n10, n11, n12); 
             break;
         }
         case 11: {
@@ -202,7 +202,7 @@ int main() {
             printf("Enter which number you want a table of: ");
             scanf("%d", &n14);
             for(int i = 1; i <= 10; i++) {
-                printf("%d x %d = %d\n", n14, i, n14 * i); // 👈 Fixed: Added missing newline '\n'
+                printf("%d x %d = %d\n", n14, i, n14 * i);
             }
             break;
         }
